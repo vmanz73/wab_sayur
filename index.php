@@ -93,32 +93,32 @@ echo '</script>';
                   <form class="user" action="db/add.php" method=GET>
                     <div class="form-group">
                       <div class="text-xs font-weight-bold text-danger text-uppercase mb-1" >Tomat</div>
-                      <input type="text" class="form-control form-control-label" name="Tomat" aria-describedby="emailHelp" value="<?php echo data('Tomat'); ?>">
+                      <input type="text" class="form-control form-control-label" name="Tomat" aria-describedby="harga tomat" value="<?php echo data('Tomat'); ?>">
                       
                     </div>
                     <div class="form-group">
                       <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Mentimun</div>
-                      <input type="text" class="form-control form-control-label" name="Mentimun" aria-describedby="emailHelp" value="<?php echo data('Mentimun'); ?>">
+                      <input type="text" class="form-control form-control-label" name="Mentimun" aria-describedby="harga mentimun" value="<?php echo data('Mentimun'); ?>">
                       
                     </div>
                     <div class="form-group">
                       <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">Wortel</div>
-                      <input type="text" class="form-control form-control-label" name="Wortel" aria-describedby="emailHelp" value="<?php echo data('Wortel'); ?>">
+                      <input type="text" class="form-control form-control-label" name="Wortel" aria-describedby="harga wortel" value="<?php echo data('Wortel'); ?>">
                       
                     </div>
                     <div class="form-group">
                       <div class="text-xs font-weight-bold text-terung text-uppercase mb-1">Terung</div>
-                      <input type="text" class="form-control form-control-label" name="Terung" aria-describedby="emailHelp" value="<?php echo data('Terung'); ?>">
+                      <input type="text" class="form-control form-control-label" name="Terung" aria-describedby="harga terung" value="<?php echo data('Terung'); ?>">
                       
                     </div>
                     <div class="form-group">
                       <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Kubis</div>
-                      <input type="text" class="form-control form-control-label" name="Kubis" aria-describedby="emailHelp" value="<?php echo data('Kubis'); ?>">
+                      <input type="text" class="form-control form-control-label" name="Kubis" aria-describedby="harga kubis" value="<?php echo data('Kubis'); ?>">
                       
                     </div>
                     <div class="form-group">
                       <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">Kentang</div>
-                      <input type="text" class="form-control form-control-label" name="Kentang" aria-describedby="emailHelp" value="<?php echo data('Kentang'); ?>">
+                      <input type="text" class="form-control form-control-label" name="Kentang" aria-describedby="harga kentang" value="<?php echo data('Kentang'); ?>">
                       
                     </div>
                     <input type="submit" class="btn btn-primary btn-user btn-block" value="save">
